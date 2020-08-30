@@ -1,6 +1,4 @@
 .card {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   min-width: 380px;
   height: 770px;
@@ -9,18 +7,10 @@
 }
 
 .price-card {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
   margin-top: 33px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+
   color: white;
 }
 
@@ -31,8 +21,6 @@
 }
 
 .price-card__rect_green {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 33px;
   width: 380px;
@@ -53,8 +41,7 @@
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -63,15 +50,7 @@ html {
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 100vh;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 /*# sourceMappingURL=index.css.map */
